@@ -26,5 +26,8 @@
 		</div>
 	</form>
 	<hr>
+	<footer class="container" align="center">
+		<em>UniversityCloud © 2018</em>
+	</footer>
 </body>
 </html>
