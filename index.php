@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
+	<div class="container mt-2">
+		<em class="">Servicio de registro de alumnos en la nube</em>
+	</div>
 	<hr>
 	<form action="principal.php" method="POST" align="center">
 		<div style="width: 300px; margin: auto;">
