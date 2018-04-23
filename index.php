@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<title>Cloud</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
@@ -20,6 +23,14 @@
 			
 			<div class="form-group">
 				<input type="text" class="form-control" name="correo" placeholder="Email">
+			</div>
+
+			<div class="form-group">
+				<select class="custom-select" name="pais" id="pais">
+					<option value="1">Perú</option>
+					<option value="2">Colombia</option>
+					<option value="3">México</option>
+				</select>
 			</div>
 			
 			<input type="submit" value="Enviar" class="btn">
