@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,9 +26,9 @@
 
 			<div class="form-group">
 				<select class="custom-select" name="pais" id="pais">
-					<option value="1">Perú</option>
-					<option value="2">Colombia</option>
-					<option value="3">México</option>
+					<option value="Perú">Perú</option>
+					<option value="Colombia">Colombia</option>
+					<option value="México">México</option>
 				</select>
 			</div>
 			

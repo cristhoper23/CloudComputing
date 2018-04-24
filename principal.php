@@ -1,14 +1,29 @@
-<?php
-include 'conexion.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-$con = conectar();
+	<title>Cloud</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<?php
+	include 'conexion.php';
 
-$nom = $_POST['nombre'];
-$email = $_POST['correo'];
+	$con = conectar();
 
-$sql = "INSERT INTO alumnos(nombre, correo) VALUES ('$nom', '$email')";
-mysqli_query($con, $sql) or die("Error al insertar datos en la DB");
-mysqli_close($con);
+	$nom = $_POST['nombre'];
+	$email = $_POST['correo'];
+	$pais = $_POST['pais'];
 
-echo "Se realizó la conexión exitosamente";
-?>
+	$sql = "INSERT INTO alumnos(nombre, correo, pais) VALUES ('$nom', '$email', '$pais')";
+	mysqli_query($con, $sql) or die("Error al insertar datos en la DB");
+	mysqli_close($con);
+
+	echo "Se realizó la conexión exitosamente";
+	?>
+	<br><hr>
+	<button class="btn btn-warning"><a href="index.php">Regresar</a></button>
+</body>
+</html>
