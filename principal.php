@@ -16,8 +16,9 @@
 	$nom = $_POST['nombre'];
 	$email = $_POST['correo'];
 	$pais = $_POST['pais'];
+	$foto = $_POST['foto'];
 
-	$sql = "INSERT INTO alumnos(nombre, correo, pais) VALUES ('$nom', '$email', '$pais')";
+	$sql = "INSERT INTO alumnos(nombre, correo, pais, foto) VALUES ('$nom', '$email', '$pais', '$foto')";
 	mysqli_query($con, $sql) or die("Error al insertar datos en la DB");
 	mysqli_close($con);
 

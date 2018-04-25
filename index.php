@@ -31,8 +31,13 @@
 					<option value="México">México</option>
 				</select>
 			</div>
+
+			<div class="custom-file" align="left">
+				<label class="custom-file-label" for="foto">Seleccionar foto</label>
+				<input type="file" class="custom-file-input" name="foto" id="foto">
+			</div>
 			
-			<input type="submit" value="Enviar" class="btn">
+			<input type="submit" value="Enviar" class="btn btn-success mt-3">
 		</div>
 	</form>
 	<hr>
